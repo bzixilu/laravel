@@ -33,4 +33,20 @@ return [
         realpath(storage_path('framework/views'))
     ),
 
+    /*
+    |--------------------------------------------------------------------------
+    | Debug info
+    |--------------------------------------------------------------------------
+    |
+    | This option determines whether it's required to add available debug info to compiled Blade templates.
+    | By default, the value is false.
+    | However, as usual, you are free to change this value.
+    |
+    */
+
+    'debugInfo' => env(
+        'DEBUG_INFO',
+        false
+    ),
+
 ];
